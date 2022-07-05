@@ -204,3 +204,60 @@ body {
     font-size: 18px;
 
 }
+
+
+.pera {
+
+    ext-align: center;
+    position: absolute;
+    top: 190%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+
+    font-size: 25px;
+    display: flex;
+
+}
+
+#first {
+
+
+    background-color: aqua;
+
+
+    margin: 05%;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 15%;
+
+}
+
+
+#second {
+
+    background-color: bisque;
+
+    margin: 05%;
+
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 15%;
+
+
+
+}
+
+#third {
+
+    background-color: pink;
+
+    margin: 05%;
+
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 15%;
+
+
+
+}
