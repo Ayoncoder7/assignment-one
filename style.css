@@ -1,263 +1,283 @@
-h1 {
-
-    font-size: 50px;
-    text-align: center;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-
-}
-
-h2 {
-
-
-    font-size: 50px;
-    text-align: center;
-    position: absolute;
-    top: 27%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-
-
-}
-
-body {
-
-    font-family: 'Lobster', cursive;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    margin: 0px;
-
-}
-
-.poor {
-
-    font-size: 25px;
-    text-align: center;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-
-}
-
-.top-banner {
-
-
-    background-image: url("./images/donation10.jpg");
-
-
-    height: 500px;
-
-    background-position: center;
-
-    background-repeat: no-repeat;
-
-    background-size: cover;
-
-
-
-}
-
-.donate-button {
-
-
-
-    text-align: center;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-    text-decoration: none;
-    background-color: orange;
-    padding: 15px 40px;
-    border-radius: 7px;
-    font-weight: 700%;
-
-
-
-
-}
-
-
-.donate-today {
-
-    text-align: center;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-
-}
-
-.passage {
-
-    text-align: center;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-    font-size: 18px;
-
-
-}
-
-.taka {
-
-    display: flex;
-    justify-content: center;
-    align-iteam: center;
-    margin-top: 20%;
-
-
-
-}
-
-
-#red {
-
-    color: red;
-    border: 1px solid red color;
-    border-redius: 1px;
-    font-size: 40px;
-    padding-left: 7%;
-}
-
-
-.money {
-
-    margin: right;
-    font-size: 40px;
-    padding-left: 7%;
-
-
-}
-
-.amount {
-
-    text-align: center;
-    position: absolute;
-    top: 120%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-    font-size: 25px;
-    font-weight: 100px;
-    color: rgb(188, 185, 185);
-    margin-bottom: 2px solid gray;
-
-    text-decoration-line: underline;
-    text-decoration-style: solid;
-    text-decoration-color: gray;
-
-
-}
-
-
-.donate-button-two {
-
-
-    text-align: center;
-    position: absolute;
-    top: 130%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-    text-decoration: none;
-    background-color: orange;
-    padding: 15px 40px;
-    border-radius: 7px;
-    font-weight: 700%;
-
-
-
-}
-
-.plan {
-
-    text-align: center;
-    position: absolute;
-    top: 140%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-
-}
-
-
-.plan-pass {
-
-
-    text-align: center;
-    position: absolute;
-    top: 150%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-
-    font-size: 18px;
-
-}
-
-
-.pera {
-
-    ext-align: center;
-    position: absolute;
-    top: 190%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-
-    font-size: 25px;
-    display: flex;
-
-}
-
-#first {
-
-
-    background-color: aqua;
-
-
-    margin: 05%;
-    padding-top: 10%;
-    padding-left: 10%;
-    padding-right: 15%;
-
-}
-
-
-#second {
-
-    background-color: bisque;
-
-    margin: 05%;
-
-    padding-top: 10%;
-    padding-left: 10%;
-    padding-right: 15%;
-
-
-
-}
-
-#third {
-
-    background-color: pink;
-
-    margin: 05%;
-
-    padding-top: 10%;
-    padding-left: 10%;
-    padding-right: 15%;
-
-
-
-}
+ body {
+
+     font-family: 'Carter One', cursive;
+     font-family: 'Lobster', cursive;
+     font-family: 'Yanone Kaffeesatz', sans-serif;
+
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins';
+ }
+
+ input {
+     outline: none;
+ }
+
+ .banner {
+     background-image: url(./images/donation4.jpg);
+     height: 90vh;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-color: rgba(0, 0, 0, 0.5);
+     background-blend-mode: overlay;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .bannerHeading {
+     color: white;
+     font-size: 80px;
+     text-align: center;
+ }
+
+ .bannerText {
+     color: white;
+     font-size: 25px;
+     text-align: center;
+ }
+
+ .bannerBtn {
+     display: flex;
+     justify-content: center;
+     margin-top: 3%;
+ }
+
+ .bannerBtn button {
+     font-size: 18px;
+     padding: .8rem;
+     background: rgb(231, 33, 33);
+     border: none;
+     color: white;
+     cursor: pointer;
+     border-radius: 3px;
+ }
+
+ .donation {
+     height: 80vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 8% 0;
+ }
+
+ .donationTitle {
+     font-size: 5rem;
+     text-align: center;
+ }
+
+ .donationTexts {
+     margin: 3% 0;
+ }
+
+ .donationText {
+     font-size: 20px;
+     text-align: center;
+ }
+
+ .donationAmounts {
+     display: flex;
+     justify-content: space-around;
+     margin: 8% 0;
+ }
+
+ .donationAmount {
+     width: 150px;
+     height: 150px;
+     border: 1px solid;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: lightgray;
+     border: 2px solid lightgray;
+ }
+
+ .donationAmount span {
+     font-size: 25px;
+     color: gray;
+     font-weight: 600;
+ }
+
+ .donationAmount:hover {
+     background: #ebc8ce;
+     border: 2px solid red;
+     cursor: pointer;
+ }
+
+ .donationAmount:hover span {
+     color: red;
+ }
+
+ .donationSent {
+     text-align: center;
+ }
+
+ .donationSent input {
+     width: 600px;
+     border: none;
+     padding: 2% 0;
+     text-align: center;
+     border-bottom: 1px solid gray;
+ }
+
+ .donationBtn {
+     margin: 5% 0;
+ }
+
+ .donationBtn button {
+     color: white;
+     border: 2px solid red;
+     background: red;
+     padding: 1.5%;
+     cursor: pointer;
+     font-size: 20px;
+ }
+
+ .plans {
+     display: flex;
+     justify-content: center;
+     margin: 3% 0;
+ }
+
+ .plan {
+     display: flex;
+     width: 400px;
+     height: 350px;
+     border: none;
+     align-items: center;
+     margin: 1%;
+     padding: 1%;
+ }
+
+ .plan .contents img {
+     margin: 4% 0;
+ }
+
+ .plan .contents h4 {
+     font-size: 25px;
+     margin: 4% 0;
+ }
+
+ .plan1 {
+     background-color: lightcyan;
+ }
+
+ .plan2 {
+     background-color: #ebc8ce;
+ }
+
+ .plan3 {
+     background-color: lightgoldenrodyellow;
+ }
+
+ .blog {
+     height: 60vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 5% 0;
+ }
+
+ .left {
+     width: 500px;
+     height: 500px;
+     margin: 2%;
+     display: flex;
+     align-items: center;
+ }
+
+ .left h3 {
+     font-size: 30px;
+ }
+
+ .right {
+     width: 600px;
+     height: 600px;
+     margin: 2%;
+ }
+
+ .right img {
+     width: 90%;
+     height: 90%;
+     padding-right: 15%;
+
+ }
+
+ .planBtn {
+     padding: 4% 0;
+ }
+
+ .planBtn button {
+     background-color: red;
+     color: white;
+     border: none;
+     font-size: 20px;
+     padding: 1% 2%;
+     cursor: pointer;
+ }
+
+ .update {
+     display: flex;
+     justify-content: center;
+     margin: 2% 0;
+ }
+
+ .update h1 {
+     text-align: center;
+     font-size: 40px;
+ }
+
+ .update p {
+     text-align: center;
+     margin: 1% 0;
+ }
+
+ .updateInput {
+     text-align: center;
+     margin: 5% 0;
+     background: #fafad2;
+     padding: 10%;
+     display: flex;
+ }
+
+ .updateInput input {
+     background: lightgray;
+     color: #000;
+     border: none;
+     width: 500px;
+     height: 40px;
+ }
+
+ .updateInput button {
+     font-size: 20px;
+     background-color: red;
+     border: none;
+     color: white;
+     padding: 0 1%;
+ }
+
+ footer {
+     background: black;
+     text-align: center;
+     height: 30vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ footer h3 {
+     color: red;
+ }
+
+ .footerContent h3 {
+     font-size: 35px;
+ }
+
+ .footerContent p {
+     color: white;
+ }
